@@ -1,0 +1,11 @@
+{
+  "package_name": "com.your.app",
+  "rpc_port": 1337,
+  "hermes_before": ".heresy/_before.js",
+  "hermes_hook": ".heresy/_hook.js",
+  "heresy_config": {
+    "http": false,
+    "react_native_elements": false,
+    "rpc": "wss://<your_serveo_subdomain>.serveo.net"
+  }
+}
