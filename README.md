@@ -5,7 +5,10 @@ Heresy is a simple experimental utility that allows you to inspect and instrumen
 
 It utilizes [frida](https://frida.re/) to inject javascript into the Hermes Engine global context, and a small suite of helper scripts to make this easier.  
 
+**Blog Post + Tutorial**: [https://pilfer.github.io/mobile-reverse-engineering/react-native/heresy-inspect-and-instrument-react-native-apps/](https://pilfer.github.io/mobile-reverse-engineering/react-native/heresy-inspect-and-instrument-react-native-apps/).  
+
 It currently only supports Android - if anyone wants to PR a CatalystImpl frida snippet for iOS then I'll happily accept it!  
+
 
 Disclaimer: This specific repository will only function as a proof-of-concept, as I'll be rewriting it into something more robust.
 
