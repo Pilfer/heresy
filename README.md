@@ -214,5 +214,9 @@ Map.prototype.set = function(key, value) {
 
 ```
 
+You can also hook the Metro bundler's Require and Define functions, which will then give you access to the AppRegistry. This means that you'll be able to hook the `registerComponent` function and have access to individual components before they're instantiated.
+
+I included an example of how to do this in the [Hooking React (JavaScript) Internals](HookingReactInternals.md) document.
+
 If you run into any problems or have something cool you'd like to share, please feel free to open an issue.   
 
